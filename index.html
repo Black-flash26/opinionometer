@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>OPINIONOMETER</title>
+  <link rel="icon" type="image/x-icon" href="Untitled5_20230825190417.png">
+  
+  <link href="style.css" rel="stylesheet" type="text/css" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+</head>
+
+<body>
+  <div class= "container">
+    <div class = "heading">
+     <div id="tbcenter">OPINIONOMETER</div>
+      <div class="gauge">Gauging Public Sentiment</div>
+      <div class = "min">
+        Use sentiment analysis to detect <br> emotions towards a documentation
+      </div>
+    </div>
+
+    <div class = "form">
+      <input  class = "input" id = "input" type = "text" placeholder = "Paste URL"> 
+      <button class = "submit" onclick="search()">Analyse</button>
+    </div>
+
+
+  </div>
+   
+  <!-- Yaha video daalna hai -->
+
+
+
+
+  <div class = "frame hidden" id = "frame">
+    <div class = "emoji">
+      <div class="left_eye"></div>
+      <div class="right_eye"></div>
+      <div id="smile"></div>
+    </div>
+    
+  </div>
+  <div class="video" id = "video">
+    <iframe src="https://youtu.be/-u5BdG_6Lzs?si=1uMTjPiBg7D7kDhn" width="800" height="400" frameborder="0"></iframe>
+  </div>
+  
+  <div class= "ABOUT" id = "about">
+    <div class = "headabt">
+     <div id="tbabt">ABOUT US</div>
+      <div class = "textabt">
+      <div class="container2">
+      <div class="abtitem"><p>We at team Wontbyte are a team of passionate software developers from Netaji Subhas University of Technology, one of the most esteemed engineering institutions in India.</p></div>
+      <div class="abtitem"> <p>We are devoted to building innovative and user-friendly solutions through our products.</p></div>
+      <div class="abtitem"><p>Our team is composed of experienced and skilled developers with a wide range of expertise. We are well-versed in a variety of programming languages and technologies, and we are always up-to-date on the latest trends.</p></div>
+      </div>
+      </div>
+    </div>
+    <div class= "TEAM hidden">
+     <div id="team">OUR TEAM</div>
+      <div class = "members">
+        <div class="memberteam">Ashwajeet Bhatia<br>Frontend Developer</div>
+        </div>
+      <div class = "members">
+        <div class="memberteam">Vishal Bhardwaj<br>Frontend Developer</div>
+        </div>
+      <div class = "members">
+        <div class="memberteam">Mohit Chauhan<br>Backend Developer and Head Deployer</div>
+        </div>
+      <div class = "members">
+        <div class="memberteam">Ayush Saraswat<br>Backend Developer</div>
+        </div>
+    </div>
+  
+  
+    
+  
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
+  <script src="script.js"></script>
+  
+</body>
+
+</html>
